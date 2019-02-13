@@ -5,6 +5,6 @@
   }
 
   provider "aws" {
-  region = "us-west-1c"
+  region = "ca-central-1"
   }
 
