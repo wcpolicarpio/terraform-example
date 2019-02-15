@@ -18,8 +18,8 @@ resource "aws_instance" "secondserver" {
   instance_type = "t2.micro"
 
   tags {
-    Name = "identifiertag"
+    Name = "staging-a4media"
   }
 
-  subnet_id = "${aws_subnet.subnet2.id}"
+  subnet_id = "${aws_subnet.subnet1.id}"
 }
